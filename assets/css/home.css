@@ -1,0 +1,67 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.section{
+    width: 90%;
+}
+
+.sp{
+    color: grey;
+    margin-top: 2%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    height: 70vh;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1%;
+}
+.form input{
+    border: none;
+    width: 40%;
+    border-bottom: 2px solid grey;
+    height: 5vh;
+    font-size: 2rem;
+}
+.form textarea{
+    width: 40%;
+    font-size: 2rem;
+    height: 30vh;
+}
+.radio-btn{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+    width: 40%;
+    height: 20vh;
+    justify-content: space-evenly;
+}
+.select{
+    display: flex;
+    /* background-color: aqua; */
+    align-items: center;
+    width: 40%;
+    /* justify-content: center; */
+}
+.select input{
+    background-color: rebeccapurple;
+    height: 3vh;
+}
+.select label{
+    height: 3vh;
+    /* background-color: brown; */
+}
+
+.upload-btn{
+    background-color: lime;
+}

@@ -1,0 +1,35 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
+    /* background-image: linear-gradient(111.4deg, rgba(7, 7, 9, 1) 6.5%, rgba(27, 24, 113, 1) 93.2%); */
+    /* background-color: rgb(82, 231, 162); */
+    background-image: linear-gradient( 288deg,  rgba(0,85,255,1) 1.5%, rgba(4,56,115,1) 91.6% );
+    background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+    height: 10vh;
+    width: 100%;
+    color: aliceblue;
+    border-bottom: 1px solid black;
+}
+
+.nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    /* background-image: url('./image/logo.png'); */
+    background-size: 100% 100%;
+    /* background-color: aliceblue; */
+    height: 95%;
+    width: 18%;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}

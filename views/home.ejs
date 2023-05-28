@@ -1,0 +1,63 @@
+<!-- bulk-upload.ejs -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/home.css">
+    <title>Bulk Upload</title>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="section">
+            <h1>Hey Welcome to Render.com Placemnt Drive <br>
+                We are hiring interns/Fresher for our upcomming projecs <br>
+                Please fill the form bellow</h1>
+            <span class="sp">
+                <h2>Note :
+                    you will recive updates on your email and whatsapp so please fill correct contact details
+                </h2>
+            </span>
+
+            <form class="form" action="/upload" method="post" enctype="multipart/form-data">
+                <input type="text" name="name" id="" placeholder="Full Name" required>
+                <input type="email" name="email" id="" placeholder="email address" required>
+                <input type="number" name="number" id="" placeholder="Number (whatsapp)" required>
+                <div class="radio-btn">
+                    <p>Please select your Role:</p>
+                    <div class="select">
+                        <input type="radio" id="html" name="role" value="Web-development">
+                        <label for="html">Web-development</label><br>
+
+                    </div>
+                    <div class="select">
+                        <input type="radio" id="css" name="role" value="java">
+                        <label for="css">java</label><br>
+                        
+                    </div>
+                    <div class="select">
+                        <input type="radio" id="javascript" name="role" value="python">
+                        <label for="javascript">Python</label>
+                        
+                    </div>
+                </div>
+                <input type="text" name="degree" placeholder="degree" id="" required>
+                <input type="text" name="clg" placeholder="college Name" id="" required>
+                <input type="number" name="passout" id="" placeholder="Passout Year Type NA if you are still in college" required>
+                <textarea name="skills" id="" cols="10" rows="10" placeholder="Enter your Skill set" required></textarea>
+                <input type="text" name="exp" placeholder="Experience type NA if not applicable" required>
+                <input type="file" name="pdfFile" accept="application/pdf" required>
+                <input type="submit" value="Upload" class="upload-btn">
+
+            </form>
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

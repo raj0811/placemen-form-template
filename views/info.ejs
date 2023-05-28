@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/info.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="info-head">
+            <% if (movie.parts==true) {%>
+                <h1>True</h1>
+                <%}%>
+                    <h1>
+                        <%= movie.name %>
+                            <%= movie.year %>
+                    </h1>
+                    <h3>
+                        <%= movie.description %>
+                    </h3>
+        </div>
+
+        <div class="img-data">
+            <div class="img">
+                <img class="poster" src=" <%= movie.img %>" alt="">
+            </div>
+            <div class="left">
+                <p class="title">description</p>
+                <p class="year">
+                    <%= movie.year %> | <%= movie.runtime %>
+                </p>
+                <p class="dir">
+                    <%= movie.director %>
+                </p>
+                <a class="imdb" target="_blank" href="<%= movie.IMDB %>">IMDB</a>
+                <p class="cat">
+                    <%= movie.category %>
+                </p>
+                <span>
+                    <%= movie.description %>
+                </span>
+            </div>
+        </div>
+
+        <div class="youtube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/<%= movie.trailer %>" frameborder="0"
+                allowfullscreen></iframe>
+
+            <h1>Watch Trailer here</h1>
+        </div>
+
+        <div class="download">
+            <a class="download-btn" href="">Download</a>
+
+        </div>
+
+    </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+.info-head {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.info-head h3 {
+    margin-top: 2%;
+    width: 80%;
+}
+
+.img-data {
+    border: 2px solid rgb(245, 210, 13);
+    background-color: #1A1E21;
+    color: wheat;
+    border-radius: 10px;
+    padding: 1%;
+    margin-top: 3%;
+    height: 40vh;
+    width: 70%;
+    display: flex;
+}
+
+.img {
+    height: 100%;
+    width: 27%;
+    background-color: aquamarine;
+    border: 2px solid #F5C418;
+}
+
+.img img {
+    height: 100%;
+    width: 100%;
+}
+
+.left {
+    background-color: #1A1E21;
+    color: wheat;
+    margin-left: 2%;
+    width: 60%;
+}
+
+.title {
+    font-size: 4rem;
+}
+
+.year {
+    font-size: 2rem;
+}
+
+.dir {
+    font-size: 1.8rem;
+}
+
+.imdb {
+    background-color: #F5C418;
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+    font-weight: 700;
+    padding: 1%;
+}
+
+.cat {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.left span {
+    font-size: 1.3rem;
+}
+
+.youtube {
+    height: 50vh;
+    margin-top: 2%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+}
+
+.youtube iframe {
+    margin-left: 4%;
+}
+
+.youtube h1 {
+    margin-left: 4%;
+}
+
+.download {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+}
+
+.download-btn {
+    background-color: lime;
+    height: 6vh;
+    width: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #1A1E21;
+    font-size: 2.5rem;
+    border-radius: 20px;
+}
+
+.download-btn:hover {
+    background-color: rgb(2, 158, 2);
+    text-decoration: none;
+    color: #F5C418;
+}
